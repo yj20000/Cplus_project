@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T01:13:22.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RYnhdfgfUe5YaKLAszXZ" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T01:14:26.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="MJ-vM2Qq1OkF7vQF7Zl2" version="24.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -209,7 +209,7 @@
         <mxCell id="S7CI3edT-Dz5i_MJj7Jw-11" value="의존 vs 직접 연관&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;객체가 언제까지 유지되는지의 차이&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;의존 : 참조하는 객체나 클래스가 사용 후 사라지는 관계&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(직접) 연관 : 참조하는 객체나 클래스가 사용 후에도 유지되는 관계&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="901" y="450" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="S7CI3edT-Dz5i_MJj7Jw-18" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="S7CI3edT-Dz5i_MJj7Jw-18" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="696" width="30" height="10" as="geometry" />
         </mxCell>
       </root>
