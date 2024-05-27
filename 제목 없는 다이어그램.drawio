@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T01:05:02.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lFCl9CAFDUDNSvN6cBYF" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T01:13:22.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RYnhdfgfUe5YaKLAszXZ" version="24.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1687" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -166,13 +166,13 @@
           <mxGeometry x="334" y="439" width="66" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wtIv33B9rkplWrfAi8jd-49" value="1. 일반화 (실선과 속이 빈 삼각형 화살표(&lt;span style=&quot;background-color: initial;&quot;&gt;-▷)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;로 그림)&lt;/span&gt;&lt;div&gt;상속 관계&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;2. 실체화 (&lt;span style=&quot;background-color: initial;&quot;&gt;점선과 속이 빈 삼각형 화살표(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-▷)로 그림)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;추상 메서드를 오버라이딩하는 관계 (구현)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 의존 (&lt;span style=&quot;background-color: initial;&quot;&gt;점선과 &amp;gt; 화살표로 그림)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;다른 클래스를 참조하는 관계&lt;/div&gt;&lt;div&gt;ex. 객체 생성, 사용 메서드 호출, 매개변수로 객체 사용&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 연관 (실선과 &amp;gt; 화살표로 그림)&lt;br&gt;① 직접 연관 (-&amp;gt;)&lt;/div&gt;&lt;div&gt;객체화하지 않은 클래스를 참조&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;② 간접 연관 (◇-&amp;gt;)&lt;/div&gt;&lt;div&gt;객체화가 외부에서 진행되어&lt;/div&gt;&lt;div&gt;몸체 클래스가 죽어도 객체는 남아있다&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;③ 복합 연관 (◆-&amp;gt;)&lt;/div&gt;&lt;div&gt;객체화가 내부에서 진행되어&lt;/div&gt;&lt;div&gt;몸체 클래스가 죽으면 객체들이 죽는다&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="800" y="50" width="330" height="390" as="geometry" />
+          <mxGeometry x="811" y="50" width="330" height="390" as="geometry" />
         </mxCell>
         <mxCell id="S7CI3edT-Dz5i_MJj7Jw-0" value="0...*" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="240" y="310" width="38" height="26" as="geometry" />
         </mxCell>
         <mxCell id="S7CI3edT-Dz5i_MJj7Jw-1" value="Fight" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="706" width="160" height="104" as="geometry">
+          <mxGeometry x="700" y="674" width="160" height="104" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -207,7 +207,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S7CI3edT-Dz5i_MJj7Jw-11" value="의존 vs 직접 연관&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;객체가 언제까지 유지되는지의 차이&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;의존 : 참조하는 객체나 클래스가 사용 후 사라지는 관계&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(직접) 연관 : 참조하는 객체나 클래스가 사용 후에도 유지되는 관계&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="890" y="450" width="240" height="170" as="geometry" />
+          <mxGeometry x="901" y="450" width="240" height="170" as="geometry" />
         </mxCell>
         <mxCell id="S7CI3edT-Dz5i_MJj7Jw-18" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="696" width="30" height="10" as="geometry" />
